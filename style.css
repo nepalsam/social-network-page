@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Oswald');
+
+body{
+    
+    box-sizing: border-box;
+    font-family: 'oswald';
+    background: gray;
+    position: relative;
+}
+
+header{
+    background: #3b5998;
+    color: black;
+    width: 850px;
+    height: 328px;
+    margin: auto;
+}
+img{
+    background:skyblue;
+    width:200px;
+    height:200px;
+    position: absolute;
+    top: 160px;
+    left:340px;
+}
+
+h1{
+    position: relative;
+    top: 250px;
+    left:220px;
+    color:white;
+}
+
+p{
+    position: relative;
+    top: 220px;
+    left: 220px;
+    color: white;
+}
+
+.navbar{
+     background-color: white;
+     position: absolute;
+     top: 275px;
+     left: 895px;
+     display: inline-flex;
+     border: 1px solid black;
+     z-index: 1;
+     border-radius: 1px;
+     margin:2px;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: flex-end;
+     text-align: left;
+     
+
+    }
+.like{
+    padding: 5px 15px;
+    display:inline-flex;
+    flex-grow: initial;
+    border: 1 solid black;
+    
+}
+
+.fallow{
+    padding: 5px 15px;
+    display:inline-flex;
+    flex-grow: initial;
+    border: 1px solid black;
+}
+
+.message{
+    padding: 5px 15px;
+    display:inline-flex;
+    flex-grow: initial;
+    border: 1px solid black;
+    
+}
+.dot{
+    padding: 5px 15px;
+    display:inline-flex;
+    flex-grow: initial;
+    border: 1px solid black;
+
+}
+.nav{
+    background-color: white;
+    position: absolute;
+    top: 310px;
+    left: 305px;
+    display:inline-flex;
+    z-index: -1;
+    border-radius: 1px;
+    margin:20px; 
+    text-decoration:none;
+    width: 850px;
+    height: 65px;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.active{
+    position: relative;
+    left:200px;
+    padding:20px;
+}
+
+
+
+.about{
+    position: relative;
+    left:100px;
+    padding: 20px;
+    
+    
+}
+.welcome{
+    position: relative;
+    left:25px;
+    padding: 20px;
+    
+
+}
+.fwb{
+    position: relative;
+    left: -20px;
+    padding:20px;
+    
+}
+.more{
+    
+    position: relative;
+    left:-70px;
+    padding: 20px;
+    
+}
+
+.main{
+    background-color:#3b5998;
+    position: absolute;
+    top: 380px;
+    left: 640px;
+    display: inline-flex;
+    border:  5px solid white;
+    z-index: -1;
+    border-radius: p1x;
+    margin:20px; 
+    border-spacing: 15px;
+    width: 512px;
+    height: 300px;
+    text-align:right;
+    
+
+}
+.box1{
+    background-color: white;
+    position: absolute;
+    top:-25px;
+    left: -360px;
+    display: inline-flex;
+    border: 5px solid black;
+    z-index: -1;
+    border-radius: 1px;
+    margin:20px; 
+    border-spacing: 15px;
+    width: 312px;
+    height:150px;
+    text-align:right;
+}
+.box2{
+    background-color:white;
+    position: absolute;
+    top: 140px;
+    left:-360px;
+    display: inline-flex;
+    border: 5px solid black;
+    z-index: -1;
+    border-radius: 1px;
+    margin:20px; 
+    border-spacing: 15px;
+    width: 312px;
+    height: 150px;
+    text-align:right;
+}
+.box3{
+    background-color: white ;;
+    position: absolute;
+    top: 305px;
+    left:-360px;
+    display: inline-flex;
+    border:   5px solid black;
+    z-index: -1;
+    border-radius: 1px;
+    margin:20px; 
+    border-spacing: 15px;
+    width: 312px;
+    height:150px;
+    text-align:right;
+}
+
+.box4 {
+    background-color: #3b5998 ;;
+    position: absolute;
+    top:  285px;
+    left: -25px;
+    display: inline-flex;
+    border:  5px solid white;
+    z-index: -1;
+    border-radius: 1px;
+    margin:20px; 
+    border-spacing: 15px;
+    width: 512px;
+    height: 300px;
+    text-align:right; 
+}
+.box5{
+    background-color: white ;
+    position: absolute;
+    top: 475px;
+   left: -360px;
+   display: inline-flex;
+   border: 5px solid black;
+   z-index: -1;
+   border-radius: 1px;
+   margin:20px; 
+   border-spacing: 15px;
+   width: 312px;
+   height: 150px;
+   text-align:right; 
+}
+
+
+footer{    
+     position: fixed;
+     bottom:0; 
+     align-items: center;
+} 
+     
+.backend{
+    
+    width: 40px;
+    height: 20px;
+    font-size: 10px;
+}
+
+.copyright{
+
+    width: 40px;
+    height:20px;
+    font-size: 5px;
+}
